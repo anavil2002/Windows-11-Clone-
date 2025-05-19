@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url('bg.jpeg'); */
+    /* background-size: cover; */
+    overflow: hidden;
+    height: 100vh;
+}
+
+.taskbar{
+    background-color: #1c1c1c;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: left;
+    z-index: 110;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
+
+.startmenu{
+    margin-left: 17px;
+    position: absolute;
+    bottom: -9555px;
+    width: 100%;
+    text-align: left;
+    transition: all 0.5s ease-in;
+}
+
+.startmenu img{
+    border-radius: 8px;
+}
+
+.icons{
+    color: white;
+}
+
